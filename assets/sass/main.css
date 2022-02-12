@@ -146,3 +146,18 @@ header ul.navbar-nav.action-menu .nav-item .nav-link {
     border-radius: 50%;
     width: 40%;
 }
+
+.tran{
+    animation: TransitionIn 0.75s;
+}
+@keyframes TransitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 0;
+        transform: rotateX(0);
+    }
+}
